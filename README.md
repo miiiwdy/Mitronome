@@ -26,9 +26,17 @@ This digital metronome helps musicians maintain tempo during practice. With an i
   cp .env.example .env
   ```
 5. Change NEXT_PUBLIC_YOUTUBE_API_KEY into your youtube api key
-  - you can get from here https://developers.google.com/youtube/v3/getting-started
+  - You can get your API key from [here](https://developers.google.com/youtube/v3/getting-started).
 6. Run Project using
   ```bash
   npm run dev
   ```
+7. Open your browser and navigate to http://localhost:3000 
+
+### Additions Made:
+- Added a **License** section to clarify the licensing for your project.
+- Provided instructions to access the project in the browser after running it.
+
+Feel free to adjust any parts as needed!
+Dont forget Star!
 
