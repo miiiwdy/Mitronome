@@ -194,7 +194,7 @@ const Metronome: React.FC = () => {
       <YouTubeSearch />
       <footer className="w-full text-center py-4 bg-dark-blue text-white">
         <div className="flex justify-center items-center">
-          <span>&copy; {new Date().getFullYear()} All rights reserved.</span>
+          <span>Made with ❤️ from</span>
           <a
             href="https://github.com/miiiwdy"
             target="_blank"
