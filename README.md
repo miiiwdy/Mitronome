@@ -7,8 +7,6 @@ This digital metronome helps musicians maintain tempo during practice. With an i
 - Intuitive interface for easy tempo setting
 - YouTube video showcasing music exercises
 
-## Getting Started
+## How To Contribute?
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+1. Fork the repository:
