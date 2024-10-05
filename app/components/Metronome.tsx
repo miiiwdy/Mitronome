@@ -123,7 +123,7 @@ const Metronome: React.FC = () => {
           style={{ color: getDynamicColor(bpm) }}
           className="text-3xl font-bold mb-6 text-white text-center"
         >
-          Metronome
+          Mitronome
         </h1>
         <div className="flex items-center justify-center mb-6">
           <button
