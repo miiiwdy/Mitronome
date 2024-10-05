@@ -33,6 +33,9 @@ This digital metronome helps musicians maintain tempo during practice. With an i
   ```
 7. Open your browser and navigate to http://localhost:3000 
 
+## License
+This project is licensed under the MIT License.
+
 ### Additions Made:
 - Added a **License** section to clarify the licensing for your project.
 - Provided instructions to access the project in the browser after running it.
