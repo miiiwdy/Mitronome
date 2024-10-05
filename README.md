@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Metronome Website
 
-## Getting Started
+This digital metronome helps musicians maintain tempo during practice. With an intuitive interface, users can easily set their desired tempo and enjoy a YouTube video featuring music exercises. Additional features include sound options and volume control, making it a valuable tool for improving musical skills.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Intuitive interface for easy tempo setting
+- YouTube video showcasing music exercises
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How To Contribute?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Fork the repository
+  ```bash
+  Click the "Fork" button at the top right corner of the page.
+  ```
+2. Clone yout forked url
+  ```bash
+   git clone <your-fork-url>
+  ```
+3. Open project in VSCODE then run this command
+  ```bash
+  npm install
+  ```
+4. After finished install, run this command
+  ```bash
+  cp .env.example .env
+  ```
+5. Change NEXT_PUBLIC_YOUTUBE_API_KEY into your youtube api key
+  - You can get your API key from [here](https://developers.google.com/youtube/v3/getting-started).
+6. Run Project using
+  ```bash
+  npm run dev
+  ```
+7. Open your browser and navigate to http://localhost:3000 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
+This project is licensed under the MIT License.
 
-## Learn More
+### Additions Made:
+- Added a **License** section to clarify the licensing for your project.
+- Provided instructions to access the project in the browser after running it.
 
-To learn more about Next.js, take a look at the following resources:
+Feel free to adjust any parts as needed!
+Dont forget Star!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
