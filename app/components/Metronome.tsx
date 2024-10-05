@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import YouTubeVideo from "./Youtube";
 import YouTubeSearch from "./YoutubeSearch";
 
 const Metronome: React.FC = () => {
